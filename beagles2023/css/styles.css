@@ -1,0 +1,236 @@
+/* CSS Document */
+
+/*
+
+Fonts:
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Spectral', serif;
+font-family: 'Titan One', cursive;
+
+Colors:
+
+#72543C - Puppy Ear Brown
+#AF7840 - Puppy Beige
+#D28D4C - Woodfloor Beige
+#363D43 - Puppy Belly Black
+#E2D8BF - Puppy Paw White
+#EBD441 - Retriever Gold
+
+*/
+
+/* CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Spectral:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Titan+One&display=swap');
+
+*, *:active {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: #E2D8BF;
+}
+
+header {
+	min-height: 300px;
+	/* Background Image CSS */
+	background-image: url("../images/home_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+	font-family: 'Titan One', cursive;
+}
+
+header h1 {
+	text-align:center;
+	color: #72543C;
+	font-weight:bold;
+	font-size: 5em;
+	text-shadow: 2px 2px 2px black;
+}
+
+header h2 {
+	text-align:center;
+	color: #363D43;
+	color-size: 3em;
+	text-shadow: 2px 2px 2px white;
+}
+
+.hnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color:#363D43;
+	min-height: 50px;
+	font-family: 'Spectral', serif;
+}
+
+.hnav ul {
+	display: block;
+	text-align: center;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 16%;
+	margin-top: .6%;
+}
+
+.hnav a:link {
+	color: #e4f2ea;
+	text-decoration: none;
+	font-size: 1.6em;
+}
+
+.hnav a:active {
+	color: white;
+}
+
+.hnav a:hover {
+	color: #D28D4C;
+}
+
+.hnav a:visited {
+	color: #EBD441;
+}
+
+main {
+	width: 90%;
+}
+
+#container {
+	padding: 2% 0;
+	margin: 0 auto;
+	width: 80%;
+	min-height: 500px;
+	font-size: 1.6em;
+	color: #363D43;
+	font-family: 'Dosis', sans-serif;
+	/* background-color:red; */
+}
+
+#container h1 {
+	font-family: 'Spectral', serif;
+}
+
+#container img {
+	width: 400px;
+	height: 300px;
+	border: solid;
+	border-width: 3px;
+	float: left;
+	margin: 2%;
+}
+
+#container p {
+	padding-top: 1em;
+}
+
+#newsletter table {
+	margin: 2em;
+	border: double;
+}
+
+#newsletter table tr td input {
+	font-size: .6em;
+}
+
+.buttons {
+	border-radius: 5px;
+	border: thick;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+p {
+	
+}
+
+blockquote {
+	color: #00000000;
+}
+
+table {
+	
+}
+
+tr {
+	
+}
+
+th {
+	
+}
+
+td {
+	
+}
+
+footer {
+	margin: 2em 0;
+}
+
+.fnav {
+	padding: 5px 0;
+	width: 100%;
+	background-color:#11181e;
+	min-height: 50px;
+}
+
+.fnav ul {
+	display: block;
+	text-align: center;
+}
+
+.fnav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 16%;
+	margin-top: .8%;
+}
+
+.fnav a {
+	color: #e4f2ea;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.fnav a:active {
+	color: white;
+}
+
+.fnav a:hover {
+	color: #D28D4C;
+}
+
+.fnav a:visited {
+	color: #EBD441;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.fairUseTag {
+	text-align: center;
+}
+
+.fairUseTag h5 {
+	padding: 2px 0;
+}
+
+.fairUseTag h4 {
+	padding: 2px 0;
+}
+
+.fairUseTag h6 {
+	padding: 2px 0;
+}
+
