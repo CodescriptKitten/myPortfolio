@@ -29,16 +29,18 @@ body {
 
 section {
     width: 90%;
+    height: 300px
 }
 
 section img {
     max-width: 200px;
     max-height: 200px;
+    float: left;
 }
 
 section img:nth-child(even) {
     max-width: 200px;
     max-height: 200px;
-    border: solid;
+    float: right;
 }
 
