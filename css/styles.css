@@ -32,11 +32,10 @@ section {
 }
 
 section img {
-    max-width: 200px;
-    max-height: 200px;
-    float: left;
+    min-width: 200px;
+    min-height: 200px;
 }
 
 section img:nth-child(even) {
-    float:right;
+    border: solid;
 }
