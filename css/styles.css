@@ -27,10 +27,20 @@ body {
     background-image: linear-gradient(#3f3863 , #170037)
 }
 
+header {
+    color: white;
+    font-family: 'Cormorant', serif;
+}
+
 section {
     width: 90%;
     height: 500px;
-    margin: auto;
+    align-content: center;
+}
+
+section a {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
 }
 
 section img {
