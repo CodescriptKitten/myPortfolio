@@ -32,8 +32,8 @@ section {
 }
 
 section img {
-    width: 5%;
-    height: 200px;
+    max-width: 5%;
+    max-height: 200px;
     float: left;
 }
 
