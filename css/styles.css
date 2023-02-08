@@ -28,6 +28,15 @@ body {
 }
 
 header {
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    font-family: 'Cormorant', serif;
+}
+
+header h2 {
     color: white;
     font-family: 'Cormorant', serif;
 }
@@ -38,9 +47,10 @@ section {
     align-content: center;
 }
 
-section a {
+section h1 a {
     color: white;
     font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
 }
 
 section img {
