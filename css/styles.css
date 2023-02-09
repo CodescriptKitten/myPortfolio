@@ -43,7 +43,7 @@ header h2 {
 }
 
 section {
-    height: 400px;
+    height: 200px;
     align-content: center;
     background-color: #000d6e72;
     margin: 0 2em;
@@ -75,15 +75,12 @@ section h3 {
 }
 
 section p {
+    font-size: 2em;
+    color: white;
     font-family: 'Maven Pro', sans-serif;
 }
 
 section img {
-    max-width: 200px;
-    max-height: 200px;
-}
-
-section img:nth-child(even) {
     max-width: 200px;
     max-height: 200px;
     float: right;
