@@ -55,6 +55,7 @@ section h1 {
 
 section h3 {
     color: white;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 section h1 a {
@@ -71,6 +72,10 @@ section h1 a:hover {
 
 section h3 {
     font-family: 'Cormorant', serif;
+}
+
+section p {
+    font-family: 'Maven Pro', sans-serif;
 }
 
 section img {
