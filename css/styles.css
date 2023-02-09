@@ -47,6 +47,7 @@ section {
     height: 500px;
     align-content: center;
     background-color: #000d6e72;
+    padding-left: 2em;
 }
 
 section h1 {
@@ -59,7 +60,6 @@ section h3 {
 
 section h1 a {
     color: white;
-    padding-left: 2em;
     font-family: 'Libre Baskerville', serif;
     text-decoration: none;
 }
