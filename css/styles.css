@@ -48,6 +48,10 @@ section {
     background-color:rgba(0, 10, 117, 0.578);
 }
 
+section h1 {
+    color: gold;
+}
+
 section h1 a {
     color: white;
     padding-left: 2em;
@@ -60,6 +64,10 @@ section h1 a:hover {
     padding-left: 2em;
     font-family: 'Libre Baskerville', serif;
     text-decoration: none;
+}
+
+section h3 {
+    font-family: 'Cormorant', serif;
 }
 
 section img {
