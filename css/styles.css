@@ -45,6 +45,7 @@ section {
     width: 90%;
     height: 500px;
     align-content: center;
+    background-color:rgba(0, 10, 117, 0.578);
 }
 
 section h1 a {
