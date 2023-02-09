@@ -47,7 +47,7 @@ section {
     height: 500px;
     align-content: center;
     background-color: #000d6e72;
-    padding-left: 2em;
+    padding: 0 2em;
 }
 
 section h1 {
@@ -66,7 +66,6 @@ section h1 a {
 
 section h1 a:hover {
     color: #04b50a;
-    padding: 0 2em;
     font-family: 'Libre Baskerville', serif;
     text-decoration: none;
 }
