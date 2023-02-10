@@ -82,12 +82,15 @@ section {
     margin: 0 2em;
 }
 
+.about section p {
+    margin: 0 2em;
+}
+
 section h1 {
     color: gold;
     font-size: 1.25em;
     font-family: 'Libre Baskerville', serif;
-    display: block;
-    margin-bottom: 2em;
+    margin: 0.5em;
 }
 
 section h3 {
@@ -100,7 +103,6 @@ section h1 a {
     color: white;
     font-size: 1.25em;
     font-family: 'Libre Baskerville', serif;
-    display: block;
     text-decoration: none;
 }
 
