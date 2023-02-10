@@ -85,7 +85,7 @@ section h1 {
     color: gold;
     font-size: 1.25em;
     font-family: 'Libre Baskerville', serif;
-    margin: 2em;
+    margin-bottom: 2em;
 }
 
 section h3 {
@@ -122,7 +122,7 @@ section img {
     width: 200px;
     height: 200px;
     border: solid white;
-    margin: 2em;
+    margin: 0 2em;
     float: left;
 }
 
