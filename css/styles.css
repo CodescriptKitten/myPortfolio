@@ -42,6 +42,18 @@ header h2 {
     font-family: 'Cormorant', serif;
 }
 
+#portfolio{
+    background-color: #001cf372;
+}
+
+
+section .resumeLnk {
+    height: 200px;
+    align-content: center;
+    background-color: #00dbc172;
+    margin: 0 2em;
+}
+
 section {
     height: 200px;
     align-content: center;
