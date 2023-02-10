@@ -60,15 +60,15 @@ table {
     font-family: 'Cormorant', serif;
 }
 
-section .resumeLnk {
+.resumeLnk {
     height: 300px;
     align-content: center;
-    background-color: #00dbc172;
+    background-color: #00d7be79;
     margin: 0 2em;
 }
 
 section {
-    height: 300px;
+    height: 250px;
     align-content: center;
     background-color: #000d6e72;
     margin: 0 2em;
@@ -85,6 +85,7 @@ section h1 {
     color: gold;
     font-size: 1.25em;
     font-family: 'Libre Baskerville', serif;
+    margin: 2em;
 }
 
 section h3 {
@@ -121,6 +122,7 @@ section img {
     width: 200px;
     height: 200px;
     border: solid white;
+    margin: 2em;
     float: left;
 }
 
