@@ -50,9 +50,13 @@ table {
     color: blue;
 }
 
-#portfolio{
-    background-color: #001cf372;
-    width: 90%;
+#portfolio {
+    border: double white;
+}
+
+#portfolio h1 {
+    color: gold;
+    font-family: 'Cormorant', serif;
 }
 
 section .resumeLnk {
