@@ -71,6 +71,7 @@ section {
     height: 250px;
     align-content: center;
     background-color: #000d6e72;
+    display: block;
     margin: 0 2em;
 }
 
