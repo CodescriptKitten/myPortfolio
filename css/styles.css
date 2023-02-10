@@ -86,7 +86,7 @@ section p {
 }
 
 section img {
-    max-width: 20%;
+    width: 200px;
     height: 200px;
     border: solid white;
     float: right;
