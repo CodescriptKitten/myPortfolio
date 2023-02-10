@@ -42,6 +42,14 @@ header h2 {
     font-family: 'Cormorant', serif;
 }
 
+blockquote {
+    color: blue;
+}
+
+table {
+    color: blue;
+}
+
 #portfolio{
     background-color: #001cf372;
 }
