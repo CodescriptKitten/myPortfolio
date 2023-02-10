@@ -70,7 +70,7 @@ section {
     height: 200px;
     align-content: center;
     background-color: #000d6e72;
-    margin: 0 2em;
+    margin: 0 auto;
 }
 
 section h1 {
@@ -112,6 +112,5 @@ section img {
     width: 200px;
     height: 200px;
     border: solid white;
-    float: right;
 }
 
