@@ -52,7 +52,7 @@ table {
 
 #portfolio {
     border: double white;
-    margin: 0 auto;
+    margin: 0 2em;
 }
 
 #portfolio h1 {
@@ -61,17 +61,24 @@ table {
 }
 
 section .resumeLnk {
-    height: 200px;
+    height: 300px;
     align-content: center;
     background-color: #00dbc172;
     margin: 0 2em;
 }
 
 section {
-    height: 200px;
+    height: 300px;
     align-content: center;
     background-color: #000d6e72;
-    margin: 0 auto;
+    margin: 0 2em;
+}
+
+.about section {
+    height: 100px;
+    align-content: center;
+    background-color: #000d6e72;
+    margin: 0 2em;
 }
 
 section h1 {
