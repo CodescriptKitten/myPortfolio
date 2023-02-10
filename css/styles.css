@@ -52,6 +52,7 @@ table {
 
 #portfolio {
     border: double white;
+    margin: 0 auto;
 }
 
 #portfolio h1 {
@@ -106,6 +107,7 @@ section p {
     font-size: 1.25em;
     color: white;
     font-family: 'Maven Pro', sans-serif;
+    display: inline-block;
 }
 
 section img {
