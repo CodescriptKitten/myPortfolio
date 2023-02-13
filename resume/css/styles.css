@@ -114,6 +114,10 @@ section ul {
     font-family: 'Maven Pro', sans-serif;
 }
 
+#contact {
+    border: double darkgoldenrod;
+}
+
 .contact section a:active{
     color:green;
 }
