@@ -112,9 +112,9 @@ section ul {
 }
 
 .contact section a{
-    color:aquamarine;
+    color:green;
 }
 
 .contact section a:hover{
-    color:green;
+    color:aquamarine;
 }
