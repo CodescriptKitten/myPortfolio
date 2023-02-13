@@ -111,10 +111,10 @@ section ul {
     font-family: 'Maven Pro', sans-serif;
 }
 
-.contact a{
+.contact section a{
     color:aquamarine;
 }
 
-.contact a:hover{
+.contact section a:hover{
     color:green;
 }
