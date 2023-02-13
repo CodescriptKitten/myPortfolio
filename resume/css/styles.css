@@ -51,39 +51,11 @@ table {
     color: blue;
 }
 
-#portfolio {
-    border: double white;
-    margin: 2em;
-}
-
-#portfolio h1 {
-    color: gold;
-    font-family: 'Cormorant', serif;
-}
-
-.resumeLnk {
-    height: 300px;
-    align-content: center;
-    background-color: #00d7be79;
-    margin: 0 2em;
-}
-
 section {
     height: 250px;
     align-content: center;
     background-color: #000d6e72;
     display: block;
-    margin: 0 2em;
-}
-
-.about section {
-    height: 100px;
-    align-content: center;
-    background-color: #000d6e72;
-    margin: 0 2em;
-}
-
-.about section p {
     margin: 0 2em;
 }
 
@@ -122,6 +94,7 @@ section p {
     color: white;
     font-family: 'Maven Pro', sans-serif;
     display: inline-block;
+    padding: 0.5em 2em;
 }
 
 section img {
@@ -130,5 +103,12 @@ section img {
     border: solid white;
     margin: 0 2em;
     float: left;
+}
+
+section ul {
+    color: white;
+    margin: 0 4em;
+    font-size: 1.2em;
+    font-family: 'Maven Pro', sans-serif;
 }
 
