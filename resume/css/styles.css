@@ -1,26 +1,46 @@
 /* CSS Document */
 
+/*
+
+Colors:
+
+
+
+
+Fonts:
+
+font-family: 'Cormorant', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Maven Pro', sans-serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Maven+Pro:wght@400;700&display=swap');
+
 *, *:active {
-    padding: 0;
     margin: 0;
+    padding: 0;
     border: 0;
 }
 
 body {
-    background-color: #666;
-    color: #fff;
+    background-image: linear-gradient(#3f3863 , #170037)
 }
 
-header, main {
-    margin-left: 2em;
+header {
+    text-align: center;
+    font-size: 2em;
+    background-image: url("./images/portfolioSelf.png")
 }
 
-h1 {
-    font-size: 1em;
+header h1{
+    color: white;
+    font-family: 'Cormorant', serif;
 }
 
-h2 {
-    font-size: 1em;
+header h2 {
+    color: white;
+    font-family: 'Cormorant', serif;
 }
 
 blockquote {
@@ -30,3 +50,85 @@ blockquote {
 table {
     color: blue;
 }
+
+#portfolio {
+    border: double white;
+    margin: 2em;
+}
+
+#portfolio h1 {
+    color: gold;
+    font-family: 'Cormorant', serif;
+}
+
+.resumeLnk {
+    height: 300px;
+    align-content: center;
+    background-color: #00d7be79;
+    margin: 0 2em;
+}
+
+section {
+    height: 250px;
+    align-content: center;
+    background-color: #000d6e72;
+    display: block;
+    margin: 0 2em;
+}
+
+.about section {
+    height: 100px;
+    align-content: center;
+    background-color: #000d6e72;
+    margin: 0 2em;
+}
+
+.about section p {
+    margin: 0 2em;
+}
+
+section h1 {
+    color: gold;
+    font-size: 1.25em;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0.5em;
+}
+
+section h3 {
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.25em;
+}
+
+section h1 a {
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+
+section h1 a:hover {
+    color: #04b50a;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+
+section h3 {
+    font-family: 'Cormorant', serif;
+}
+
+section p {
+    font-size: 1.25em;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    display: inline-block;
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+    border: solid white;
+    margin: 0 2em;
+    float: left;
+}
+
