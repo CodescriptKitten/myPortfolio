@@ -55,7 +55,7 @@ table {
 }
 
 section {
-    height: 250px;
+    height: 300px;
     align-content: center;
     background-color: #000d6e72;
     display: block;
@@ -93,7 +93,7 @@ section h3 {
 }
 
 section p {
-    font-size: 1.25em;
+    font-size: 1.5em;
     color: white;
     font-family: 'Maven Pro', sans-serif;
     padding: 0.5em 2em;
@@ -110,7 +110,7 @@ section img {
 section ul {
     color: white;
     margin: 0 4em;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-family: 'Maven Pro', sans-serif;
 }
 
